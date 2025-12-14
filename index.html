@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Solitaire Online for Free - Classic Klondike Solitaire</title>
+    <meta name="description" content="Play classic Klondike Solitaire online for free. No downloads, no registration required. Enjoy the best Solitaire game in your browser!">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" onclick="navigateTo('home')">
+                    <div class="logo-icon">🃏</div>
+                    <span class="logo-text">Solitaire Online</span>
+                </div>
+                
+                <nav class="nav-desktop">
+                    <button class="nav-link" data-page="home">Home</button>
+                    <button class="nav-link" data-page="about">About Us</button>
+                    <button class="nav-link" data-page="contact">Contact Us</button>
+                </nav>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon hidden">✕</span>
+                </button>
+            </div>
+            
+            <nav class="nav-mobile hidden" id="mobileNav">
+                <button class="nav-link-mobile" data-page="home">Home</button>
+                <button class="nav-link-mobile" data-page="about">About Us</button>
+                <button class="nav-link-mobile" data-page="contact">Contact Us</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent" class="main-content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Solitaire Online. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <button class="footer-link" onclick="navigateTo('terms')">Terms & Conditions</button>
+                    <button class="footer-link" onclick="navigateTo('privacy')">Privacy Policy</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
